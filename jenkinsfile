@@ -1,6 +1,6 @@
 job('Job-1') {
     scm {
-        github('mjmanas0699/task3devops','master')
+        github('mjmanas0699/Devops_Task_6','master')
     }
     steps{
         shell('sudo cp -rvf * /root/task')
